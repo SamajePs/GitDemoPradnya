@@ -66,6 +66,9 @@ public class StepDefination extends Utils {
     public void the_response_in_api_call_will_success_with_status_code(Integer int1) {
         // Write code here that turns the phrase above into concrete actions
        assertEquals(responseString.getStatusCode(),200);
+       System.out.println("*******redudant code added*");
+        System.out.println("*******redudant code added*");
+        System.out.println("*******redudant code added*");
 
     }
     @Then("{string} in response body {string}")
